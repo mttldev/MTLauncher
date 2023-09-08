@@ -1,0 +1,45 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+}
+
+.error {
+  color: #e00;
+}
+
+#launch_pad {
+  width: 100%;
+  max-width: 38rem;
+  position: fixed;
+  bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#config_pad {
+  width: 100%;
+  max-width: 38rem;
+  position: fixed;
+  bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pad_button {
+  background-color: #fff;
+  color: #78a5c5;
+  border: 0;
+  cursor: pointer;
+}
+
+.pad_button:hover {
+  color: #d86b45;
+  text-decoration: underline;
+}
+
+.large_button {
+  font-size: xx-large;
+}
